@@ -24,3 +24,9 @@ exit
 127.0.0.1   coder-srv
 2
 ```
+
+## Solutions
+There are two ways:
+
+1. [Isolate containers with a user namespace](https://docs.docker.com/engine/security/userns-remap/)
+2. [Run the Docker daemon as a non-root user](https://docs.docker.com/engine/security/rootless/)
